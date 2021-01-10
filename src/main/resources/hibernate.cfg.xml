@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<hibernate-configuration>
+    <session-factory>
+        <property name="connection.datasource">java:/comp/env/jdbc/hibernate</property>
+        <property name="show_sql">true</property>
+        <property name="format_sql">true</property>
+        <property name="dialect">org.hibernate.dialect.MySQL5Dialect</property>
+    </session-factory>
+</hibernate-configuration>
